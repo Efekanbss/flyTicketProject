@@ -1,0 +1,35 @@
+# FlyTicket – Web Programming Final Project Report ✈️
+
+## Project Overview
+
+FlyTicket is a full-stack airline ticket reservation web application developed as a final assignment for the Dynamic Web Programming course. The system allows users to search and book flights, while administrators can manage all flight-related operations through a protected admin panel.
+
+## Functionalities
+
+### User Side
+- View all available flights
+- Filter flights by departure city, arrival city, and date
+- Book a ticket by entering passenger information
+- See a booking confirmation page
+
+### Admin Side
+- Admin login system
+- Add, update, or delete flight data
+- View a list of all flights
+- Admin panel access is protected and restricted to logged-in admins
+
+### Backend Rules
+- No two flights may depart from the same city at the same time
+- No two flights may arrive at the same city at the same arrival time
+- Flight and ticket data are stored in MongoDB
+
+## Technologies Used
+
+- **Frontend:** React.js, React Router, Axios, basic CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB + Mongoose ODM
+
+## Outcome
+
+The FlyTicket project successfully implements all the required core features as defined in the final assignment instructions. Optional features such as seat selection, email notifications, and payment simulation were not included, but the system is fully functional and extensible.
+
